@@ -24,13 +24,7 @@ not relicense third-party software and does not change the viewer's license.
 - **llama.cpp and DoView-authored OCR source:** MIT, as stated in their bundled
   license files. Other OCR dependencies retain their licenses, listed in
   `ocr/_internal/licenses/distributions/index.json`.
-- **GEOS 3.13.1:** LGPL 2.1; **Shapely 2.1.2:** BSD 3-Clause. The accompanying
-  `DoView-OCR-Source-20261023.zip` supplies corresponding source and instructions
-  to modify, rebuild, and run the independent OCR program with a modified GEOS.
-  DoView permits private modification of that OCR work and debugging such
-  modifications. Normal viewer package integrity verification remains enabled;
-  the official viewer accepts its published trusted package, while the supplied
-  source can be built and run independently. See [SOURCES.md](SOURCES.md).
+- **GEOS** uses LGPL 2.1 and **Shapely** uses BSD 3-Clause. Each engine release includes corresponding source and instructions for rebuilding and running the independent OCR program. You may privately modify that OCR program and debug your modifications. The [OCR source guide](SOURCES.md) lists the versions and archives for each engine.
 - **Fonts:** SIL Open Font License 1.1. Copyright notices and font-specific
   licenses are included. The OFL does not apply to images/documents rendered
   using the fonts.
